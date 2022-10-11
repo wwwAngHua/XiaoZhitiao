@@ -1,0 +1,47 @@
+/**index.wxss**/
+@font-face {
+	font-family: xiaoZhitiaoFont;
+	src: url("https://cdn.jsdelivr.net/gh/duskgit/Moyanimage@master/font/moyan.ttf");
+}
+
+.card {
+  left: 50%;
+	top: 50%;
+  width: 70%;
+  height: 70%;
+	background: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
+	text-align: top;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.image {
+  width: 100%;
+  height: 170px;
+}
+
+.content {
+  color: black;
+	text-align: left;
+  padding: 10px 10px;
+  margin-top: 10px;
+	font-size: small;
+	font-family: xiaoZhitiaoFont;
+}
+
+.from {
+  color: black;
+	text-align: center;
+  padding: 10px 10px;
+  margin-top: 10px;
+	font-size: small;
+	font-family: xiaoZhitiaoFont;
+}
+
+.refresh {
+  font-size: small;
+  margin-top: 40px;
+  font-family: xiaoZhitiaoFont;
+}

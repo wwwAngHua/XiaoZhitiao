@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container bg" style="background-image: url('{{ bg }}');">
+  <view class="card">
+    <cover-image class="image" src="{{ image }}"></cover-image>
+    <view class="content"><text>{{ content }}</text></view>
+    <view class="from"><text>- 「{{ from }}」 -</text></view>
+    <button class="refresh" bindtap="clickRefresh">换一换</button>
+  </view>
+</view>
